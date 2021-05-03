@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DIO.Cruso.API</name>
+    </assembly>
+    <members>
+        <member name="M:DIO.Cruso.API.Controllers.CursoController.Post(DIO.Cruso.API.Models.Cursos.CursoViewModelInput)">
+            <summary>
+            Este serviço permite cadastrar curso para o usuário autenticado.
+            </summary>
+            <param name="cursoViewModelInput">View model curso</param>
+            <returns>Retorna status 201 e dados do curso do usuário</returns>
+        </member>
+        <member name="M:DIO.Cruso.API.Controllers.CursoController.Get">
+            <summary>
+            Este serviço permite obter todos os cursos ativos do usuário.
+            </summary>
+            <param name="cursoViewModelInput">View model curso</param>
+            <returns>Retorna status 201 e dados do curso do usuário</returns>
+        </member>
+        <member name="M:DIO.Cruso.API.Controllers.UsuarioController.Logar(DIO.Cruso.API.Models.Usuarios.LoginViewModelInput)">
+            <summary>
+            Este serviço permite autenticar um usuário cadastrado e ativo
+            </summary>
+            <param name="loginViewModelInput">View model do login</param>
+            <returns>Retorna status ok, dados do usuário e o token em caso de sucesso</returns>
+        </member>
+        <member name="M:DIO.Cruso.API.Controllers.UsuarioController.Registrar(DIO.Cruso.API.Models.Usuarios.RegistrarViewModelInput)">
+            <summary>
+            Este serviço permite cadastrar um usuário.
+            </summary>
+            <param name="loginViewModelInput">View model registrar</param>
+            <returns>Retorna status 200.</returns>
+        </member>
+    </members>
+</doc>
